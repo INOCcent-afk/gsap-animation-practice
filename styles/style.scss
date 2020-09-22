@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #afafaf;
+}
+section {
+  height: 100vh;
+}
+.boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+.box-1 {
+  background-color: #a81111;
+}
+.box-2 {
+  background-color: #1f7b97;
+}
+.box-3 {
+  background-color: #4a17b9;
+}
